@@ -85,3 +85,11 @@
    66.666% { opacity: 1}
    100% { opacity: 0}
  }
+ .profile-image {
+   width: 36%;
+   margin: 20px;
+   border-style: solid;
+   border-radius: 50%;
+   border-width: 10px;
+   border-color: black
+ }
