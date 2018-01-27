@@ -202,3 +202,23 @@
   background-image:url(../img/portfolio/fullsize/Sailing-Gulf.png);
   color:#fff
 }
+/* .service-box h3 {
+  display: none;
+}
+.service-box i, :hover i{ */
+  /* -webkit-filter: grayscale(5px);
+  -moz-filter: grayscale(5px);
+  -o-filter: grayscale(5px);
+  -ms-filter: grayscale(5px); */
+  /* background-color: #40404b; */
+  /* display: block;
+  animation: App-logo-spin infinite 15s linear;
+}
+.service-box i :hover #react{
+  display: block;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
