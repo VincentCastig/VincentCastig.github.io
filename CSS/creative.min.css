@@ -86,6 +86,8 @@
 @media screen and (max-width:658px) {
   header{
   background-image:url(../img/headerMobile.jpeg);
+  background-attachment: scroll;
+    padding: 254px 0px !important;
   }
 }
 
