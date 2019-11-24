@@ -76,6 +76,7 @@
       -moz-background-size:cover;background-size:cover;
       -o-background-size:cover;background-position:center;background-attachment: fixed; 
   background-image:url(../img/header.jpg);
+  background-size: auto;
   color:#fff}
   header .header-content{padding:100px 15px}
   header .header-content .header-content-inner 
