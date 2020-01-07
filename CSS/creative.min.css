@@ -52,6 +52,12 @@
  .sidebar {
     display: none;
   }
+  .white-bg{
+    background-color: #fff;
+  }
+  #contact{
+    background-color: #fff;
+  }
   @media (min-width: 768px) {
     video {
       max-width: 650px
@@ -94,7 +100,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     z-index: -10;
     /* background-image:url(../img/headerMobile.jpeg) no-repeat center center; */
     background-image:url(../img/headerMobile.jpeg);
@@ -168,7 +174,7 @@
     background-color: #428bca;
   }
   #skills {
-      background-color: transparent;
+      background-color: #fff;
   }
   .slider {
     position: relative;
