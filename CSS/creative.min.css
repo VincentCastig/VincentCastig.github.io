@@ -91,6 +91,7 @@
 }
 @media screen and (max-width:658px) {
   header{
+    background-image: none;
     padding: 254px 0px !important;
   }
   header:before {
