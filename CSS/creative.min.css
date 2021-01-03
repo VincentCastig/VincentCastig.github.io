@@ -11,7 +11,7 @@
       min-height:auto;
       -webkit-background-size:cover;
       -moz-background-size:cover;background-size:cover;
-      -o-background-size:cover;background-position:center;background-attachment: fixed; 
+      -o-background-size:cover;background-position:center;background-attachment: fixed;
   /* background-image:url(../img/header.jpg);
   background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     background-size: cover; */
   color:#fff}
   header .header-content{padding:100px 15px}
-  header .header-content .header-content-inner 
+  header .header-content .header-content-inner
   h1{font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;font-size:30px}
   header .header-content .header-content-inner hr{margin:30px auto}
   header .header-content .header-content-inner p{font-weight:300;color:rgba(255,255,255,.7);
@@ -52,12 +52,14 @@
       .work-container{
         display: flex;
         flex-wrap: wrap;
+          justify-content: center;
       }
       .work-container > div{
         padding: 5px;
       }
       .portfolio-box > div > img {
-        max-height: 347px;;
+        max-height: 325px;
+          margin: auto;
       }
  .sidebar {
     display: none;
@@ -104,7 +106,7 @@
     background-image: none;
     padding: 254px 0px !important;
   }
-  
+
 }
 
 .title-container{
@@ -118,14 +120,14 @@
 }
 
   header .header-content{padding:100px 15px}
-  header .header-content .header-content-inner 
+  header .header-content .header-content-inner
   h1{font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;font-size:30px}
   header .header-content .header-content-inner hr{margin:30px auto}
   header .header-content .header-content-inner p{font-weight:300;color:rgba(255,255,255,.7);
     font-size:16px;margin-bottom:50px}
     @media (min-width:768px) {
       .profile-image {
-        background: radial-gradient(#40404b, #111118); 
+        background: radial-gradient(#40404b, #111118);
         width: 56px;
         padding: 20px;
         border-style: solid;
@@ -153,14 +155,14 @@
        }
       @media (max-width: 490px) {
         .profile-image {
-          background: radial-gradient(#6a6761,#5a564f); 
+          background: radial-gradient(#6a6761,#5a564f);
           width: 70%;
           padding: 1%;
           border-style: solid;
           border-radius: 50%;
         }
       }
-      
+
   /* Sidebar navigation */
   .nav-sidebar {
     margin-right: -21px; /* 20px padding + 1px border */
@@ -185,7 +187,11 @@
   .slider {
     position: relative;
    }
-   
+
+  .slide1, .slide2, .slide3{
+      width: 100%;
+  }
+
  .slide1 {
   animation:fade 8s infinite;
   -webkit-animation:fade 8s infinite;
@@ -224,7 +230,7 @@
    66.666% { opacity: 1}
    100% { opacity: 0}
  }
- 
+
 
  .bg-gradient {
   background: radial-gradient(#6a6761,#5a564f);
@@ -270,7 +276,7 @@
   max-height: 102px;
   position: relative;
 }
- .skillIcon>img:hover{ 
+ .skillIcon>img:hover{
   filter: grayscale(0%);
   filter: contrast(200%);
   width: 79px;
@@ -284,14 +290,14 @@
   /* filter: drop-shadow(16px 16px 20px rgb(44, 16, 16)) invert(7%); */
  }
 
- /* visibility: visible;  
- -webkit-transform: scale(1); 
- opacity: 1;transform: scale(1); 
- opacity: 1;-webkit-transition: 
- -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, 
- opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; 
+ /* visibility: visible;
+ -webkit-transform: scale(1);
+ opacity: 1;transform: scale(1);
+ opacity: 1;-webkit-transition:
+ -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s,
+ opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
  transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;  */
- 
+
   /* background-color: #40404b; */
   /* display: block;
   animation: App-logo-spin infinite 15s linear;
