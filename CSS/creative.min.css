@@ -105,7 +105,7 @@
 @media screen and (max-width:658px) {
   header{
     background-image: none;
-    padding: 254px 0px !important;
+    padding: 154px 0px !important;
   }
 
 }
@@ -133,6 +133,7 @@
         padding: 20px;
         border-style: solid;
         border-radius: 50%;
+        margin-bottom: 1rem;
       }
       header{min-height:100%}
       header .header-content{
@@ -150,6 +151,7 @@
         .profile-image {
          background: radial-gradient(#6a6761,#5a564f);
           width: 38%;
+          min-width: 240px;
           padding: 1%;
           border-style: solid;
           border-radius: 50%;
