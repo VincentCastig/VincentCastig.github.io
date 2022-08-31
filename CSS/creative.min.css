@@ -155,6 +155,7 @@
           padding: 1%;
           border-style: solid;
           border-radius: 50%;
+          margin-bottom: 1rem;
         }
        }
       @media (max-width: 490px) {
@@ -164,6 +165,7 @@
           padding: 1%;
           border-style: solid;
           border-radius: 50%;
+          margin-bottom: 1rem;
         }
       }
 
