@@ -257,7 +257,6 @@
   width: 100%;
   height: 100%;
   z-index: -9;
-  /* background-image:url(../img/headerMobile.jpeg) no-repeat center center; */
   background-image:url(../img/portfolio/fullsize/Sailing-Gulf.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -295,6 +294,48 @@
   /* filter: hue-rotate(90deg); */
   /* filter: drop-shadow(16px 16px 20px rgb(44, 16, 16)) invert(7%); */
  }
+
+ .vb {
+  margin-right: 20px;
+}
+
+.va {
+  width: 3px;
+}
+.uz {
+  height: 3px;
+}
+.uy {
+  background-color: rgb(255, 255, 255);
+}
+.ja {
+  border-radius: 50%;
+}
+.ci {
+  display: inline-block;
+}
+
+.nl {
+  padding-top: 24px;
+}
+
+.dx {
+  justify-content: center;
+}
+.o {
+  display: flex;
+}
+
+.ux {
+  padding-bottom: 10px;
+}
+
+.uw {
+  margin-bottom: 14px;
+}
+.uv {
+  margin-top: 32px;
+}
 
  /* visibility: visible;
  -webkit-transform: scale(1);
