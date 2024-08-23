@@ -1,376 +1,465 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
+
 <head>
     <!-- <meta charset="UTF-8"> -->
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="I’m Vincent Castigliola and my mission in life is to follow a very similar philosophy to that of the ancient stoics. If I can live life virtuously by learning new things, being courageous, treating people with kindness, and abstaining from instant gratifications, I will consider my life a success.">
-<link rel="icon" type="image/png" sizes="192x192"  href="./icons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-<link rel="manifest" href="./icons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-        <!-- Bootstrap Core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description"
+        content="I’m Vincent Castigliola and my mission in life is to follow a very similar philosophy to that of the ancient stoics. If I can live life virtuously by learning new things, being courageous, treating people with kindness, and abstaining from instant gratifications, I will consider my life a success.">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom Fonts -->
-        <!-- <link href="vendor/fontawesome/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" type="text/css"> -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <!-- <link href="vendor/fontawesome/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" type="text/css"> -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"
+        rel="stylesheet" type="text/css">
 
-        <!-- Plugin CSS -->
-        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-        <!-- Theme CSS -->
-        <link href="CSS/creative.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="CSS/creative.min.css" rel="stylesheet">
 
-        <title>Vincent Castigliola's Portfolio</title>
-    </head>
+    <title>Vincent Castigliola's Portfolio</title>
+</head>
 
-    <body id="page-top" class="vsc-initialized" cz-shortcut-listen="true">
+<body id="page-top" class="vsc-initialized" cz-shortcut-listen="true">
 
-            <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top affix-top">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            Menu
-                            <!-- <i class="fa fa-bars"></i> -->
-                        </button>
-                        <a class="navbar-brand page-scroll" href="#page-top">Home</a>
-                    </div>
+    <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top affix-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    Menu
+                    <!-- <i class="fa fa-bars"></i> -->
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-default">
-                            <li class="">
-                                <a class="page-scroll" href="#about">About</a>
-                            </li>
-                            <li class="">
-                                <a class="page-scroll" href="#skills">Skills</a>
-                            </li>
-                            <li class="">
-                                <a class="page-scroll" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="">
-                                <a class="page-scroll" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-                <!-- /.container-fluid -->
-            </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-default">
+                    <li class="">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-            <header>
-                <div class="header-content">
-                    <div class="header-content-inner">
-                        <img class="profile-image" src="./img/portfolio/fullsize/portfolioImage.png" alt="Vincent Castigliola">
-                        <div class="title-container">
-                            <div>
-                                <h1 id="homeHeading" style="-webkit-text-stroke: 1px black;">Vincent Castigliola</h1>
-                            <hr class="light" style="margin: 16px auto; max-width: inherit;">
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <img class="profile-image" src="./img/fullsize/portfolioImage.png" alt="Vincent Castigliola">
+                <div class="title-container">
+                    <div>
+                        <h1 id="homeHeading" style="-webkit-text-stroke: 1px black;">Vincent Castigliola</h1>
+                        <hr class="light" style="margin: 16px auto; max-width: inherit;">
 
-                                <h2 style="-webkit-text-stroke: 0.8px black; font-weight: 600;">Software Developer</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <section class="bg-gradient" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="text-faded">About</h2>
-                            <hr class="light">
-                             <p class="text-faded" style="text-align: initial; line-height: 32px;">Hi, I'm Vincent Castigliola and I am an experienced software developer with a passion for continuous growth and exploration. With six years of hands-on experience in the field, I have honed my skills and expertise in software development, leveraging my technical knowledge to create innovative solutions. If you are interested in networking, feel free to reach out. You can find my contact information below.</p>
-
-
-                            <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button" data-sr-id="10" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; ">Portfolio</a>
-                        </div>
+                        <h2 style="-webkit-text-stroke: 0.8px black; font-weight: 600;">Software Developer</h2>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </header>
 
-            <section id="skills">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Skills</h2>
-                            <hr class="primary">
-                        </div>
+    <section class="bg-gradient" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-faded">About</h2>
+                    <hr class="light">
+                    <p class="text-faded" style="text-align: initial; line-height: 32px;">Hi, I'm Vincent Castigliola
+                        and I am an experienced software developer with a passion for continuous growth and exploration.
+                        With six years of hands-on experience in the field, I have honed my skills and expertise in
+                        software development, leveraging my technical knowledge to create innovative solutions. If you
+                        are interested in networking, feel free to reach out. You can find my contact information below.
+                    </p>
+
+
+                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button" data-sr-id="10"
+                        style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; ">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center animate">
+                    <div class="service-box skillIcon">
+                        <!-- <div> -->
+                        <img src="./img/thumbnails/react-logo.png" />
+                        <h3>React</h3>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 text-center animate">
-                            <div class="service-box skillIcon">
-                                <!-- <div> -->
-                                <img src="./img/portfolio/thumbnails/react-logo.png" />
-                                <h3>React</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/angular.png">
-                                <h3>Angular</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/JavaScript-logo.png">
-                                <h3>JavaScript</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/node.png">
-                                <h3>Node</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/HTML5.png">
-                                <h3>HTML</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/css3.jpg">
-                                <h3>CSS</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/sql.png">
-                                <h3>SQL</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/react-native.png">
-                                <h3>React Native</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/sassLogo.png">
-                                <h3>Sass</h3>
-                                <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/jqueryLogo.png">
-                                <h3>jQuery</h3>
-                                <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/bootstrapLogo.jpg">
-                                <h3>Bootstrap</h3>
-                                <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <div class="service-box skillIcon">
-                                <img src="./img/portfolio/thumbnails/gulpLogo.png">
-                                <h3>Gulp</h3>
-                                <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                            </div>
-                        </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/angular.png">
+                        <h3>Angular</h3>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                          <hr class="primary">
-                            <h2 class="section-heading">And More</h2>
-                        </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/JavaScript-logo.png">
+                        <h3>JavaScript</h3>
                     </div>
                 </div>
-            </section>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/node.png">
+                        <h3>Node</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/HTML5.png">
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/css3.jpg">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/sql.png">
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/react-native.png">
+                        <h3>React Native</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/sassLogo.png">
+                        <h3>Sass</h3>
+                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/jqueryLogo.png">
+                        <h3>jQuery</h3>
+                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/bootstrapLogo.jpg">
+                        <h3>Bootstrap</h3>
+                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box skillIcon">
+                        <img src="./img/thumbnails/gulpLogo.png">
+                        <h3>Gulp</h3>
+                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <hr class="primary">
+                    <h2 class="section-heading">And More</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="sail">
-                <div class="header-content">
-                    <div class="header-content-inner">
+    <div class="sail">
+        <div class="header-content">
+            <div class="header-content-inner">
 
+            </div>
+        </div>
+    </div>
+
+
+    <aside class="bg-dark" id="portfolio">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <!-- <h2 style='margin:0;'>^</h2> -->
+                <h2>Some of My Work</h2>
+                <!-- <a href="http://linkedin.com/in/chapmanjeffrey" class="btn btn-default btn-xl sr-button">See Me on LinkedIn</a> -->
+            </div>
+        </div>
+    </aside>
+
+    <section class="no-padding white-bg">
+        <div class="container-fluid">
+            <div class="row no-gutter work-container">
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="no-gutter popup-gallery">
+                        <a href="./img/fullsize/sparks.png" class="portfolio-box slider">
+
+                            <div class="slide1" alt="">
+                                <img src="./img/fullsize/sparks.png" class="img-responsive"
+                                    alt="Dallas Spark">
+                            </div>
+
+                            <div class="slide2">
+                                <img src="./img/fullsize/sparks.png" class="img-responsive"
+                                    alt="Dallas Spark">
+                            </div>
+                            <div class="slide3" alt="">
+                                <img src="./img/fullsize/Responsive.png" class="img-responsive"
+                                    alt="Dallas Spark">
+                            </div>
+
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        REACT NATIVE - NODE.JS - PostgreSQL
+                                    </div>
+                                    <div class="project-name">
+                                        Dallas Spark
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-center">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.dallas.spark&hl=en"
+                            class="btn">Google Play</a>
+                        <a target="_blank" href="https://expo.io/@vincentcastig/spark3" class="btn">Expo</a>
+                        <a target="_blank" href="https://youtube.com/watch?v=sujEFgNhZwQ" class="btn">Video Tour</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="no-gutter popup-gallery">
+                        <a href="./img/fullsize/home.png" class="portfolio-box slider">
+                            <div class="slide1">
+                                <img src="./img/fullsize/home.png" class="img-responsive"
+                                    alt="Liquors Unlimited Home">
+                            </div>
+                            <div class="slide2">
+                                <img src="./img/fullsize/wine.png" class="img-responsive"
+                                    alt="Liquors Unlimited Wine">
+                            </div>
+                            <div class="slide3" alt="">
+                                <img src="./img/fullsize/contact.png" class="img-responsive"
+                                    alt="Liquors Unlimited Contact">
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        React - React-Bootstrap
+                                    </div>
+                                    <div class="project-name">
+                                        Liquors Unlimited
+                                    </div>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a target="_blank" href="https://liquorsunlimitedpascagoula.com/" class=" btn">Live Site</a>
+                        <a target="_blank" href="https://github.com/VincentCastig/LiquorsUnlimited"
+                            class="btn">Github</a>
+                        <a target="_blank" href="#" class="btn"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="no-gutter popup-gallery">
+                        <a href="./img/fullsize/OuttaBedTime.png" class="portfolio-box slider">
+                            <div class="slide1">
+                                <img src="./img/fullsize/OuttaBedTime.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="slide2">
+                                <img src="./img/fullsize/OuttaBedTime2.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="slide3" alt="">
+                                <img src="./img/fullsize/OutABedSplash.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        React Native - NODE.JS - PostgreSQL
+                                    </div>
+                                    <div class="project-name">
+                                        OuttaBed
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a target="_blank" href="https://apps.apple.com/us/app/outtabed/id1543623878" class=" btn">App
+                            Store</a>
+                        <a target="_blank" href="https://github.com/VincentCastig/OuttaBed" class="btn">Github</a>
+                        <a target="_blank" href="#" class="btn"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="no-gutter popup-gallery">
+                        <a href="./img/fullsize/ee-home.png" class="portfolio-box slider">
+                            <div class="slide1">
+                                <img src="./img/fullsize/ee-home.png" class="img-responsive"
+                                    alt="equipment experts home">
+                            </div>
+                            <div class="slide2">
+                                <img src="./img/fullsize/ee-sell.png" class="img-responsive"
+                                    alt="equipment experts sell">
+                            </div>
+                            <div class="slide3" alt="">
+                                <img src="./img/fullsize/ee-listings.png" class="img-responsive"
+                                    alt="equipment experts listings">
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Vue - PHP - MySQL - AWS
+                                    </div>
+                                    <div class="project-name">
+                                        Equipment Experts
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a target="_blank" href="https://www.equipmentexperts.com/" class=" btn">Live Site</a>
+                        <a target="_blank" href="#" class="btn"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="no-gutter popup-gallery">
+                        <a href="./img/fullsize/ew-manufacturer.png" class="portfolio-box slider">
+                            <div class="slide1">
+                                <img src="./img/fullsize/ew-manufacturer.png" class="img-responsive"
+                                    alt="equipment watch manufacturer">
+                            </div>
+                            <div class="slide2">
+                                <img src="./img/fullsize/ew-category.png" class="img-responsive"
+                                    alt="equipment watch category">
+                            </div>
+                            <div class="slide3" alt="">
+                                <img src="./img/fullsize/ew-search.png" class="img-responsive"
+                                    alt="equipment watch search">
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        React - Typescript - Node.js - MySQL - AWS
+                                    </div>
+                                    <div class="project-name">
+                                        Equipment Watch
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a target="_blank" href="https://app.equipmentwatch.com/search/by-category.com/" class=" btn">Live Site</a>
+                        <a target="_blank" href="#" class="btn"></a>
                     </div>
                 </div>
             </div>
 
+        </div>
+        </div>
+    </section>
 
-            <aside class="bg-dark" id="portfolio">
-                <div class="container text-center">
-                    <div class="call-to-action">
-                        <!-- <h2 style='margin:0;'>^</h2> -->
-                        <h2>Some of My Work</h2>
-                        <!-- <a href="http://linkedin.com/in/chapmanjeffrey" class="btn btn-default btn-xl sr-button">See Me on LinkedIn</a> -->
-                    </div>
+    <aside class="bg-dark" id="portfolio">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <div class="text-center">
+                    <a target="_blank" style="margin:2%;" href="https://linkedin.com/in/vincentcastigliola/"
+                        class="btn btn-primary btn-xl">Find me on LinkedIn</a>
+                    <a target="_blank" style="margin:2%;" href="https://github.com/VincentCastig"
+                        class="btn btn-primary btn-xl">Find me on Github</a>
                 </div>
-            </aside>
+            </div>
+        </div>
+    </aside>
 
-            <section class="no-padding white-bg">
-                <div class="container-fluid">
-                    <div class="row no-gutter work-container">
-
-                            <div class="col-lg-4 col-sm-6">
-                                    <div class="no-gutter popup-gallery">
-                                      <a href="./img/portfolio/fullsize/sparks.png" class="portfolio-box slider">
-
-                                              <div class="slide1" alt="">
-                                                  <img src="./img/portfolio/fullsize/sparks.png" class="img-responsive" alt="Dallas Spark">
-                                              </div>
-
-                                              <div class="slide2">
-                                                  <img src="./img/portfolio/fullsize/sparks.png" class="img-responsive" alt="Dallas Spark">
-                                              </div>
-                                              <div class="slide3" alt="">
-                                                  <img src="./img/portfolio/fullsize/Responsive.png" class="img-responsive" alt="Dallas Spark">
-                                              </div>
-
-                                          <div class="portfolio-box-caption">
-                                              <div class="portfolio-box-caption-content">
-                                                  <div class="project-category text-faded">
-                                                      REACT NATIVE - NODE.JS - PostgreSQL
-                                                  </div>
-                                                  <div class="project-name">
-                                                      Dallas Spark
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </a>
-                                    </div>
-
-                                  <div class="text-center">
-                                      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.dallas.spark&hl=en" class="btn">Google Play</a>
-                                    <a target="_blank" href="https://expo.io/@vincentcastig/spark3" class="btn">Expo</a>
-                                    <a target="_blank" href="https://youtube.com/watch?v=sujEFgNhZwQ" class="btn">Video Tour</a>
-                                  </div>
-                              </div>
-
-
-                        <div class="col-lg-4 col-sm-6">
-                          <div class="no-gutter popup-gallery">
-                            <a href="./img/portfolio/fullsize/home.png" class="portfolio-box slider">
-                                <div class="slide1">
-                                    <img src="./img/portfolio/fullsize/home.png" class="img-responsive" alt="Liquors Unlimited Home">
-                                </div>
-                                <div class="slide2">
-                                    <img src="./img/portfolio/fullsize/wine.png" class="img-responsive" alt="Liquors Unlimited Wine">
-                                </div>
-                                <div class="slide3" alt="">
-                                    <img src="./img/portfolio/fullsize/contact.png" class="img-responsive" alt="Liquors Unlimited Contact">
-                                </div>
-                                <div class="portfolio-box-caption">
-                                    <div class="portfolio-box-caption-content">
-                                        <div class="project-category text-faded">
-                                            React - React-Bootstrap
-                                        </div>
-                                        <div class="project-name">
-                                            Liquors Unlimited
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </a>
-                          </div>
-                            <div class="text-center">
-                              <a target="_blank" href="https://liquorsunlimitedpascagoula.com/" class=" btn">Live Site</a>
-                              <a target="_blank" href="https://github.com/VincentCastig/LiquorsUnlimited" class="btn">Github</a>
-                              <a target="_blank" href="#" class="btn"></a>
-                            </div>
-                        </div>
-
-                            <div class="col-lg-4 col-sm-6">
-                              <div class="no-gutter popup-gallery">
-                                <a href="./img/portfolio/fullsize/OuttaBedTime.png" class="portfolio-box slider">
-                                    <div class="slide1">
-                                        <img src="./img/portfolio/fullsize/OuttaBedTime.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="slide2">
-                                        <img src="./img/portfolio/fullsize/OuttaBedTime2.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="slide3" alt="">
-                                        <img src="./img/portfolio/fullsize/OutABedSplash.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="portfolio-box-caption">
-                                        <div class="portfolio-box-caption-content">
-                                            <div class="project-category text-faded">
-                                                React Native - NODE.JS - PostgreSQL
-                                            </div>
-                                            <div class="project-name">
-                                                OuttaBed
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                              </div>
-                                <div class="text-center">
-                                  <a target="_blank" href="https://apps.apple.com/us/app/outtabed/id1543623878" class=" btn">App Store</a>
-                                  <a target="_blank" href="https://github.com/VincentCastig/OuttaBed" class="btn">Github</a>
-                                  <a target="_blank" href="#" class="btn"></a>
-                                </div>
-                            </div>
-
-
-                    </div>
-
-                    </div>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <hr class="primary">
+                    <p>Feel free to contact me by Text, Call, or Email.</p>
                 </div>
-            </section>
-
-            <aside class="bg-dark" id="portfolio">
-                <div class="container text-center">
-                    <div class="call-to-action">
-                        <div class="text-center">
-                        <a target="_blank" style="margin:2%;" href="https://linkedin.com/in/vincentcastigliola/" class="btn btn-primary btn-xl">Find me on LinkedIn</a>
-                        <a target="_blank" style="margin:2%;" href="https://github.com/VincentCastig" class="btn btn-primary btn-xl">Find me on Github</a>
-                      </div>
-                    </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <img style="width: 100px;" src="./img/fullsize/phone22.png">
+                    <p style="color:#b6002d;">228-990-2326</p>
                 </div>
-            </aside>
-
-            <section id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <h2 class="section-heading">Contact</h2>
-                            <hr class="primary">
-                            <p>Feel free to contact me by Text, Call, or Email.</p>
-                        </div>
-                        <div class="col-lg-4 col-lg-offset-2 text-center">
-                           <img style="width: 100px;"src="./img/portfolio/fullsize/phone22.png">
-                            <p style="color:#b6002d;">228-990-2326</p>
-                        </div>
-                        <div class="col-lg-4 text-center">
-                            <img style="width: 100px" src="./img/portfolio/fullsize/email22.png">
-                            <p><a href="mailto:vincent.castig@gmail.com">vincent.castig@gmail.com</a></p>
-                        </div>
-                    </div>
+                <div class="col-lg-4 text-center">
+                    <img style="width: 100px" src="./img/fullsize/email22.png">
+                    <p><a href="mailto:vincent.castig@gmail.com">vincent.castig@gmail.com</a></p>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <!-- jQuery -->
-            <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
-            <!-- Bootstrap Core JavaScript -->
-            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-            <!-- Plugin JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-            <script src="./vendor/scrollreveal/scrollreveal.min.js"></script>
-            <script src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-            <!-- Theme JavaScript -->
-            <script src="js/creative.min.js"></script>
-            <script src="js/slides.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+    <script src="js/slides.js"></script>
 
 
-        </body>
-        </html>
+</body>
+
+</html>
