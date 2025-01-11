@@ -17,6 +17,8 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <!-- <link href="vendor/fontawesome/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" type="text/css"> -->
@@ -71,7 +73,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <!-- <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <img class="profile-image" src="./img/fullsize/portfolio-image.png" alt="Vincent Castigliola">
@@ -85,339 +87,374 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
-    <section class="bg-gradient" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-faded">About</h2>
-                    <hr class="light">
-                    <p class="text-faded" style="text-align: initial; line-height: 32px;">Hi, I'm Vincent Castigliola
-                        and I am an experienced software developer with a passion for continuous growth and exploration.
-                        With six years of hands-on experience in the field, I have honed my skills and expertise in
-                        software development, leveraging my technical knowledge to create innovative solutions. If you
-                        are interested in networking, feel free to reach out. You can find my contact information below.
-                    </p>
-
-
-                    <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button" data-sr-id="10"
-                        style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; ">Portfolio</a>
-                </div>
+    <main id="home">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi,
+                    <br>I'm
+                    <span class="highlight">Vincent</span>
+                    <br>
+                    <span id="typewriter">
+                        <span id="typewriter"></span>
+                    </span>
+                </h1>
+                <!-- <button class="contact-button">Contact</button> -->
             </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Skills</h2>
-                    <hr class="primary">
-                </div>
+            <div class="hero-image">
+                <img src="./img/fullsize/portfolio-image.png" alt="Vincent">
             </div>
+        </section>
+        <div class="social-links">
+            <a href="https://github.com/VincentCastig" target="_blank" class="icon github">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/vincentcastigliola" target="_blank" class="icon linkedin">
+                <i class="bx bxl-linkedin"></i>
+            </a>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center animate">
-                    <div class="service-box skillIcon">
-                        <!-- <div> -->
-                        <img src="./img/thumbnails/react-logo.png" />
-                        <h3>React</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/angular.png">
-                        <h3>Angular</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/JavaScript-logo.png">
-                        <h3>JavaScript</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/node.png">
-                        <h3>Node</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/HTML5.png">
-                        <h3>HTML</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/css3.jpg">
-                        <h3>CSS</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/sql.png">
-                        <h3>SQL</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/react-native.png">
-                        <h3>React Native</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/sassLogo.png">
-                        <h3>Sass</h3>
-                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/jqueryLogo.png">
-                        <h3>jQuery</h3>
-                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/bootstrapLogo.jpg">
-                        <h3>Bootstrap</h3>
-                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box skillIcon">
-                        <img src="./img/thumbnails/gulpLogo.png">
-                        <h3>Gulp</h3>
-                        <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+
+        <section class="bg-gradient" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-faded">About</h2>
+                        <hr class="light">
+                        <p class="text-faded" style="text-align: initial; line-height: 32px;">Hi, I'm Vincent
+                            Castigliola
+                            and I am an experienced software developer with a passion for continuous growth and
+                            exploration.
+                            With six years of hands-on experience in the field, I have honed my skills and expertise in
+                            software development, leveraging my technical knowledge to create innovative solutions. If
+                            you
+                            are interested in networking, feel free to reach out. You can find my contact information
+                            below.
+                        </p>
+
+
+                        <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button" data-sr-id="10"
+                            style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: all 0.35s ease 0s, -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; transition: all 0.35s ease 0s, transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0.2s; ">Portfolio</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <hr class="primary">
-                    <h2 class="section-heading">And More</h2>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Skills</h2>
+                        <hr class="primary">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center animate">
+                        <div class="service-box skillIcon">
+                            <!-- <div> -->
+                            <img src="./img/thumbnails/react-logo.png" />
+                            <h3>React</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/angular.png">
+                            <h3>Angular</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/JavaScript-logo.png">
+                            <h3>JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/node.png">
+                            <h3>Node</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/HTML5.png">
+                            <h3>HTML</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/css3.jpg">
+                            <h3>CSS</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/sql.png">
+                            <h3>SQL</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/react-native.png">
+                            <h3>React Native</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/sassLogo.png">
+                            <h3>Sass</h3>
+                            <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/jqueryLogo.png">
+                            <h3>jQuery</h3>
+                            <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/bootstrapLogo.jpg">
+                            <h3>Bootstrap</h3>
+                            <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="service-box skillIcon">
+                            <img src="./img/thumbnails/gulpLogo.png">
+                            <h3>Gulp</h3>
+                            <!-- <p class="text-muted">You have to make your websites with love these days!</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <hr class="primary">
+                        <h2 class="section-heading">And More</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sail">
+            <div class="header-content">
+                <div class="header-content-inner">
+
                 </div>
             </div>
         </div>
-    </section>
 
-    <div class="sail">
-        <div class="header-content">
-            <div class="header-content-inner">
 
+        <aside class="bg-dark" id="portfolio">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <!-- <h2 style='margin:0;'>^</h2> -->
+                    <h2>Some of My Work</h2>
+                    <!-- <a href="http://linkedin.com/in/chapmanjeffrey" class="btn btn-default btn-xl sr-button">See Me on LinkedIn</a> -->
+                </div>
             </div>
-        </div>
-    </div>
+        </aside>
 
+        <section class="no-padding white-bg">
+            <div class="container-fluid">
+                <div class="row no-gutter work-container">
 
-    <aside class="bg-dark" id="portfolio">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <!-- <h2 style='margin:0;'>^</h2> -->
-                <h2>Some of My Work</h2>
-                <!-- <a href="http://linkedin.com/in/chapmanjeffrey" class="btn btn-default btn-xl sr-button">See Me on LinkedIn</a> -->
-            </div>
-        </div>
-    </aside>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="no-gutter popup-gallery">
+                            <a href="./img/fullsize/sparks.png" class="portfolio-box slider">
 
-    <section class="no-padding white-bg">
-        <div class="container-fluid">
-            <div class="row no-gutter work-container">
+                                <div class="slide1" alt="">
+                                    <img src="./img/fullsize/sparks.png" class="img-responsive" alt="Dallas Spark">
+                                </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="no-gutter popup-gallery">
-                        <a href="./img/fullsize/sparks.png" class="portfolio-box slider">
+                                <div class="slide2">
+                                    <img src="./img/fullsize/sparks.png" class="img-responsive" alt="Dallas Spark">
+                                </div>
+                                <div class="slide3" alt="">
+                                    <img src="./img/fullsize/responsive-devices.png" class="img-responsive"
+                                        alt="Dallas Spark">
+                                </div>
 
-                            <div class="slide1" alt="">
-                                <img src="./img/fullsize/sparks.png" class="img-responsive"
-                                    alt="Dallas Spark">
-                            </div>
-
-                            <div class="slide2">
-                                <img src="./img/fullsize/sparks.png" class="img-responsive"
-                                    alt="Dallas Spark">
-                            </div>
-                            <div class="slide3" alt="">
-                                <img src="./img/fullsize/responsive-devices.png" class="img-responsive"
-                                    alt="Dallas Spark">
-                            </div>
-
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        REACT NATIVE - NODE.JS - PostgreSQL
-                                    </div>
-                                    <div class="project-name">
-                                        Dallas Spark
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            REACT NATIVE - NODE.JS - PostgreSQL
+                                        </div>
+                                        <div class="project-name">
+                                            Dallas Spark
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+
+                        <div class="text-center">
+                            <a target="_blank"
+                                href="https://play.google.com/store/apps/details?id=com.dallas.spark&hl=en"
+                                class="btn">Google Play</a>
+                            <a target="_blank" href="https://expo.io/@vincentcastig/spark3" class="btn">Expo</a>
+                            <a target="_blank" href="https://youtube.com/watch?v=sujEFgNhZwQ" class="btn">Video Tour</a>
+                        </div>
                     </div>
 
-                    <div class="text-center">
-                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.dallas.spark&hl=en"
-                            class="btn">Google Play</a>
-                        <a target="_blank" href="https://expo.io/@vincentcastig/spark3" class="btn">Expo</a>
-                        <a target="_blank" href="https://youtube.com/watch?v=sujEFgNhZwQ" class="btn">Video Tour</a>
-                    </div>
-                </div>
 
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="no-gutter popup-gallery">
-                        <a href="./img/fullsize/lu-home.png" class="portfolio-box slider">
-                            <div class="slide1">
-                                <img src="./img/fullsize/lu-home.png" class="img-responsive"
-                                    alt="Liquors Unlimited Home">
-                            </div>
-                            <div class="slide2">
-                                <img src="./img/fullsize/lu-party-planning.png" class="img-responsive"
-                                    alt="Liquors Unlimited Party Planning">
-                            </div>
-                            <div class="slide3">
-                                <img src="./img/fullsize/lu-contact.png" class="img-responsive"
-                                    alt="Liquors Unlimited Contact">
-                            </div>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        React - React-Bootstrap
-                                    </div>
-                                    <div class="project-name">
-                                        Liquors Unlimited
-                                    </div>
-
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="no-gutter popup-gallery">
+                            <a href="./img/fullsize/lu-home.png" class="portfolio-box slider">
+                                <div class="slide1">
+                                    <img src="./img/fullsize/lu-home.png" class="img-responsive"
+                                        alt="Liquors Unlimited Home">
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="text-center">
-                        <a target="_blank" href="https://liquorsunlimitedpascagoula.com/" class=" btn">Live Site</a>
-                        <a target="_blank" href="https://github.com/VincentCastig/LiquorsUnlimited"
-                            class="btn">Github</a>
-                        <a target="_blank" href="#" class="btn"></a>
-                    </div>
-                </div>
+                                <div class="slide2">
+                                    <img src="./img/fullsize/lu-party-planning.png" class="img-responsive"
+                                        alt="Liquors Unlimited Party Planning">
+                                </div>
+                                <div class="slide3">
+                                    <img src="./img/fullsize/lu-contact.png" class="img-responsive"
+                                        alt="Liquors Unlimited Contact">
+                                </div>
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            React - React-Bootstrap
+                                        </div>
+                                        <div class="project-name">
+                                            Liquors Unlimited
+                                        </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="no-gutter popup-gallery">
-                        <a href="./img/fullsize/outta-bed-iphone.png" class="portfolio-box slider">
-                            <div class="slide1">
-                                <img src="./img/fullsize/outta-bed-iphone.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="slide2">
-                                <img src="./img/fullsize/outta-bed-iphone2.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="slide3" alt="">
-                                <img src="./img/fullsize/outta-bed-splash.png" class="img-responsive" alt="">
-                            </div>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        React Native - NODE.JS - PostgreSQL
-                                    </div>
-                                    <div class="project-name">
-                                        OuttaBed
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a target="_blank" href="https://liquorsunlimitedpascagoula.com/" class=" btn">Live Site</a>
+                            <a target="_blank" href="https://github.com/VincentCastig/LiquorsUnlimited"
+                                class="btn">Github</a>
+                            <a target="_blank" href="#" class="btn"></a>
+                        </div>
                     </div>
-                    <div class="text-center">
-                        <a target="_blank" href="https://apps.apple.com/us/app/outtabed/id1543623878" class=" btn">App
-                            Store</a>
-                        <a target="_blank" href="https://github.com/VincentCastig/OuttaBed" class="btn">Github</a>
-                        <a target="_blank" href="#" class="btn"></a>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="no-gutter popup-gallery">
+                            <a href="./img/fullsize/outta-bed-iphone.png" class="portfolio-box slider">
+                                <div class="slide1">
+                                    <img src="./img/fullsize/outta-bed-iphone.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="slide2">
+                                    <img src="./img/fullsize/outta-bed-iphone2.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="slide3" alt="">
+                                    <img src="./img/fullsize/outta-bed-splash.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            React Native - NODE.JS - PostgreSQL
+                                        </div>
+                                        <div class="project-name">
+                                            OuttaBed
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a target="_blank" href="https://apps.apple.com/us/app/outtabed/id1543623878"
+                                class=" btn">App
+                                Store</a>
+                            <a target="_blank" href="https://github.com/VincentCastig/OuttaBed" class="btn">Github</a>
+                            <a target="_blank" href="#" class="btn"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="no-gutter popup-gallery">
+                            <a href="./img/fullsize/ee-home.png" class="portfolio-box slider">
+                                <div class="slide1">
+                                    <img src="./img/fullsize/ee-home.png" class="img-responsive"
+                                        alt="equipment experts home">
+                                </div>
+                                <div class="slide2">
+                                    <img src="./img/fullsize/ee-sell.png" class="img-responsive"
+                                        alt="equipment experts sell">
+                                </div>
+                                <div class="slide3" alt="">
+                                    <img src="./img/fullsize/ee-listings.png" class="img-responsive"
+                                        alt="equipment experts listings">
+                                </div>
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            Vue - PHP - MySQL - AWS
+                                        </div>
+                                        <div class="project-name">
+                                            Equipment Experts
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a target="_blank" href="https://www.equipmentexperts.com/" class=" btn">Live Site</a>
+                            <a target="_blank" href="#" class="btn"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="no-gutter popup-gallery">
+                            <a href="./img/fullsize/ew-manufacturer.png" class="portfolio-box slider">
+                                <div class="slide1">
+                                    <img src="./img/fullsize/ew-manufacturer.png" class="img-responsive"
+                                        alt="equipment watch manufacturer">
+                                </div>
+                                <div class="slide2">
+                                    <img src="./img/fullsize/ew-category.png" class="img-responsive"
+                                        alt="equipment watch category">
+                                </div>
+                                <div class="slide3" alt="">
+                                    <img src="./img/fullsize/ew-search.png" class="img-responsive"
+                                        alt="equipment watch search">
+                                </div>
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            React - Typescript - Node.js - MySQL - AWS
+                                        </div>
+                                        <div class="project-name">
+                                            Equipment Watch
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a target="_blank" href="https://app.equipmentwatch.com/search/by-category.com/"
+                                class=" btn">Live Site</a>
+                            <a target="_blank" href="#" class="btn"></a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="no-gutter popup-gallery">
-                        <a href="./img/fullsize/ee-home.png" class="portfolio-box slider">
-                            <div class="slide1">
-                                <img src="./img/fullsize/ee-home.png" class="img-responsive"
-                                    alt="equipment experts home">
-                            </div>
-                            <div class="slide2">
-                                <img src="./img/fullsize/ee-sell.png" class="img-responsive"
-                                    alt="equipment experts sell">
-                            </div>
-                            <div class="slide3" alt="">
-                                <img src="./img/fullsize/ee-listings.png" class="img-responsive"
-                                    alt="equipment experts listings">
-                            </div>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Vue - PHP - MySQL - AWS
-                                    </div>
-                                    <div class="project-name">
-                                        Equipment Experts
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="text-center">
-                        <a target="_blank" href="https://www.equipmentexperts.com/" class=" btn">Live Site</a>
-                        <a target="_blank" href="#" class="btn"></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="no-gutter popup-gallery">
-                        <a href="./img/fullsize/ew-manufacturer.png" class="portfolio-box slider">
-                            <div class="slide1">
-                                <img src="./img/fullsize/ew-manufacturer.png" class="img-responsive"
-                                    alt="equipment watch manufacturer">
-                            </div>
-                            <div class="slide2">
-                                <img src="./img/fullsize/ew-category.png" class="img-responsive"
-                                    alt="equipment watch category">
-                            </div>
-                            <div class="slide3" alt="">
-                                <img src="./img/fullsize/ew-search.png" class="img-responsive"
-                                    alt="equipment watch search">
-                            </div>
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        React - Typescript - Node.js - MySQL - AWS
-                                    </div>
-                                    <div class="project-name">
-                                        Equipment Watch
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="text-center">
-                        <a target="_blank" href="https://app.equipmentwatch.com/search/by-category.com/" class=" btn">Live Site</a>
-                        <a target="_blank" href="#" class="btn"></a>
-                    </div>
-                </div>
             </div>
+            </div>
+        </section>
 
-        </div>
-        </div>
-    </section>
+    </main>
 
-    <aside class="bg-dark" id="portfolio">
+    <aside class="bg-dark aside" id="">
         <div class="container text-center">
             <div class="call-to-action">
                 <div class="text-center">
-                    <a target="_blank" style="margin:2%;" href="https://linkedin.com/in/vincentcastigliola/"
-                        class="btn btn-primary btn-xl">Find me on LinkedIn</a>
-                    <a target="_blank" style="margin:2%;" href="https://github.com/VincentCastig"
-                        class="btn btn-primary btn-xl">Find me on Github</a>
+                    <a href="https://github.com/VincentCastig" target="_blank" class="icon github">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/vincentcastigliola" target="_blank" class="icon linkedin">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
                 </div>
             </div>
         </div>

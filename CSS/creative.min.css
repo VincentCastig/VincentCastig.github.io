@@ -55,6 +55,12 @@
         flex-wrap: wrap;
           justify-content: center;
       }
+      .navbar-inverse .navbar-nav>li>a{
+        color: #fff;
+      }
+      .navbar-inverse .navbar-brand{
+        color: #fff;
+      }
       .work-container > div{
         padding: 5px;
         height: 368px;
@@ -263,7 +269,7 @@
   width: 100%;
   height: 100%;
   z-index: -9;
-  background-image:url(../img/fullsize/sailboat.png);
+  /* //background-image:url(../img/fullsize/sailboat.png); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -363,3 +369,152 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 } */
+
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a.active {
+  color: red;
+}
+
+.theme-toggle button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 135px;
+  height: 92vh;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: red;
+}
+
+.contact-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  max-width: 40%;
+}
+
+.hero-image img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    padding: 75px 40px;
+  }
+}
+
+@media (max-width: 490px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text-center{
+  .icon{
+    font-size: 60px;
+    color: #fff;
+  }
+  .icon:hover{
+    text-decoration: none;
+    color: red;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.social-links a:hover {
+  color: red;
+}
+
+aside{
+  z-index: 99999;
+  position: relative;
+}
+
+/* Add this to your existing CSS file */
+#typewriter {
+  font-size: 48px;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  overflow: hidden;
+  border-right: 4px solid rgb(0, 0, 0);
+  width: fit-content;
+  animation: blink-caret 1s step-end infinite;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
