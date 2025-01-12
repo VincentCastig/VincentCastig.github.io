@@ -422,7 +422,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 50px 135px;
-  height: 92vh;
+  height: 89vh;
 }
 
 .hero-text {
@@ -485,6 +485,7 @@ header {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .social-links a {
