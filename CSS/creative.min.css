@@ -446,6 +446,11 @@ header {
 .navbar-brand{
   line-height: 32px;
   padding-left: 0;
+  padding-top: 5px;
+}
+
+.navbar-brand >img{
+  width: 50px;
 }
 
 .navbar-nav>li>a {
@@ -464,7 +469,7 @@ header {
   /* width: calc(100% - 2rem); */
   margin-left: 0;
   margin-right: 0;
-  box-shadow: 1px 4px rgba(146, 161, 176, 0.15);
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
   background-color: #fff;
 }
 
@@ -473,7 +478,8 @@ header {
   width: 1024px;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 0px;
+  padding-bottom: 60px;
+  padding-top: 0;
   height: 100vh;
   max-width: 90%;
   position: relative;
@@ -494,10 +500,10 @@ header {
 }
 
 .hero-text h1 {
-  font-size: 58px;
-  line-height: 1.2;
+  font-size: 57px;
+  line-height: 1.5;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 52px;
 }
 
 .highlight {
@@ -507,10 +513,11 @@ header {
 .contact-button {
   background-color: red;
   color: white;
-  padding: 10px 20px;
+  padding: 14px 45px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .contact-button:hover{
@@ -540,7 +547,7 @@ header {
 .social-links {
   display: flex;
   position: absolute;
-  bottom: 2%;
+  bottom: 1.5%;
   left: 0%;
   justify-content: flex-start;
   gap: 20px;
