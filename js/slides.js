@@ -7,7 +7,7 @@ const typewriterElement = document.getElementById("typewriter");
 const phrases = [
   "\nSoftware Developer",
   "\nSolutions Engineer",
-  "\nSolutions Consultant",
+  "\nSales Engineer",
   "\nGym Addict"
 ];
 
