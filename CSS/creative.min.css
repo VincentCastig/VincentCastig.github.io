@@ -485,6 +485,14 @@ header {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0; /* Hidden initially */
+  transform: translateY(50px); /* Move slightly down initially */
+  transition: all 1s ease-out; /* Smooth animation */
+}
+
+.hero.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move back to its original position */
 }
 
 .about-section{
