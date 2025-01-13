@@ -508,6 +508,17 @@ header {
   display: flex;
 }
 
+.skills-container{
+  opacity: 0; /* Hidden initially */
+  transform: translateY(50px); /* Move slightly down initially */
+  transition: all 1s ease-out; /* Smooth animation */
+}
+
+.skills-container.visible{
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move back to its original position */
+}
+
 .hero-text {
   max-width: 50%;
 }

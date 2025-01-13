@@ -51,7 +51,7 @@ function typeWriter() {
 window.onload = typeWriter();
 
 document.addEventListener("DOMContentLoaded", () => {
-  const sections = document.querySelectorAll(".hero, .about-content");
+  const sections = document.querySelectorAll(".hero, .about-content, .skills-container");
 
   const observer = new IntersectionObserver(
     (entries) => {
