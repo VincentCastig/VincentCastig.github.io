@@ -51,20 +51,20 @@ function typeWriter() {
 window.onload = typeWriter();
 
 document.addEventListener("DOMContentLoaded", () => {
-  const heroSection = document.querySelector(".hero");
+  const sections = document.querySelectorAll(".hero, .about-content");
 
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          heroSection.classList.add("visible"); // Add 'visible' class when in view
+          entry.target.classList.add("visible"); // Add 'visible' class when in view
         } else {
-          heroSection.classList.remove("visible"); // Remove 'visible' class when out of view
+          entry.target.classList.remove("visible"); // Remove 'visible' class when out of view
         }
       });
     },
     { threshold: 0.5 } // Trigger animation when 50% of the section is visible
   );
 
-  observer.observe(heroSection);
+  sections.forEach((section) => observer.observe(section));
 });
