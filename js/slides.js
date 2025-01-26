@@ -53,6 +53,11 @@ window.onload = typeWriter();
 document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll(".hero, .about-content, .skills-container");
 
+  const isMobile = window.innerWidth < 768; // Example breakpoint for mobile
+  const observerOptions = {
+    threshold: isMobile ? 0.1 : 0.5, // Use smaller threshold for mobile
+  };
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -63,8 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     },
-    { threshold: 0.5 } // Trigger animation when 50% of the section is visible
+    observerOptions
   );
 
   sections.forEach((section) => observer.observe(section));
 });
+
