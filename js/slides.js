@@ -6,8 +6,8 @@ const typewriterElement = document.getElementById("typewriter");
 // The phrases to display
 const phrases = [
   "\nSoftware Developer",
-  "\nSolutions Engineer",
-  "\nSales Engineer",
+  "\nWeb Developer",
+  "\nSailor",
   "\nGym Addict"
 ];
 
